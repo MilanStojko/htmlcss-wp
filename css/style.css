@@ -36,6 +36,10 @@ a:hover{
     border-radius: 25px;
     position: relative;
 }
+ .opaco2{
+    background-color: rgba(0, 0, 0, 0.5);
+    position: relative;
+}
 .bannerh2{
     color: white;
     font-size: 40px;
@@ -103,12 +107,18 @@ h4{
     color: #959595;
 }
 .sezione3{
-    background-color: #abcfe7;
     height: 570px;
     width: 56%;
     margin-bottom: 20px;
     margin-right: 1%;
     float: left;
+}
+.banner2{
+    background-image: url(../img/banner-2.jpg);
+    height: 250px;
+    border-radius: 25px;
+    background-size: cover;
+    background-position: center;
 }
 .sezione4{
     height: 570px;
@@ -120,16 +130,24 @@ h4{
     background-image: url(../img/img-3.jpg);
     background-size: contain;
     background-repeat: no-repeat;
+    background-position: center;
     height: 250px;
     border-radius: 25px;
 }
 
-.divisione3{
-    background-color: #8801fe;
+.footer{
     height: 60px;
     width: 79%;
     margin: -15px 10% 30px;
+    text-align: center;
     float: none;
+}
+.footer p::after{
+    content: ' \2665';
+    color: red;
+    font-weight: bold;
+    font-size: 35px;
+
 }
 .generale ::after{
     content: "";
