@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header #logo{
+    margin: 0 10%;
+    border-right: solid 1px #a1a1a1;
+    padding: 0 40px 0 0;
+}
+nav{
+    margin: 30px 10%;
+}
+nav ul li{
+    display: inline;
+}
+nav ul li a {
+    text-decoration: none;
+    color: inherit;
+    margin-right: 20px;
+    font-size: 20px;
+    font: bold;
+}
+a:hover{
+    text-decoration: underline;
+}
+.banner{
+    background-image: url(../img/banner.jpg);
+    margin: 0 10%;
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    border-radius: 25px;
+}
+.divisione2{
+    height: 500px;
+    background-color: #e1d67a;
+    width: 79%;
+    margin: 30px 10%;
+    float: none;
+}
+.generale{
+    background-color: #0385fa;
+    height: 700px;
+    width: 79%;
+    margin: 30px 10%;
+}
+.sezione1{
+    background-color: #abcfe7;
+    height: 90px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.sezione2{
+    background-color: #abcfe7;
+    height: 570px;
+    width: 21%;
+    margin-bottom: 20px;
+    margin-right: 1%;
+    float: left;
+}
+.sezione3{
+    background-color: #abcfe7;
+    height: 570px;
+    width: 56%;
+    margin-bottom: 20px;
+    margin-right: 1%;
+    float: left;
+}
+.sezione4{
+    background-color: #abcfe7;
+    height: 570px;
+    width: 21%;
+    margin-bottom: 20px;
+    float: left;
+}
+.divisione3{
+    background-color: #8801fe;
+    height: 60px;
+    width: 79%;
+    margin: -15px 10% 30px;
+    float: none;
+}
+.generale ::after{
+    content: "";
+    display: table;
+    clear: both;
+}
