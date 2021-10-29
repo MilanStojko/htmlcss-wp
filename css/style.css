@@ -12,6 +12,7 @@ header #logo{
 }
 nav{
     margin: 30px 10%;
+    color: #959595;
 }
 nav ul li{
     display: inline;
@@ -39,6 +40,7 @@ a:hover{
     color: white;
     font-size: 40px;
     width: 55%;
+    font-weight: normal;
 }
 .bannerp{
     color: white;
@@ -49,6 +51,18 @@ a:hover{
     bottom: 80px;
     left: 50px;
 }
+.titolo{
+    margin: 30px 10%;
+}
+.big{
+    font-size: 40px;
+    font-weight: bold;
+}
+h4{
+    color: #959595;
+    font-weight: normal;
+
+}
 .divisione2{
     height: 500px;
     background-color: #e1d67a;
@@ -57,24 +71,36 @@ a:hover{
     float: none;
 }
 .generale{
-    background-color: #0385fa;
     height: 700px;
     width: 79%;
     margin: 30px 10%;
 }
-.sezione1{
-    background-color: #abcfe7;
-    height: 90px;
-    width: 100%;
-    margin-bottom: 20px;
-}
 .sezione2{
-    background-color: #abcfe7;
     height: 570px;
     width: 21%;
     margin-bottom: 20px;
     margin-right: 1%;
     float: left;
+}
+.img1{
+    background-image: url(../img/img-1.jpg);
+    height: 250px;
+    border-radius: 25px;
+}
+.opaco{
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 250px;
+    border-radius: 25px;
+}
+.text{
+    margin-top: 15px;
+}
+.text h3{
+    margin-bottom: 10px;
+    font-weight: normal;
+}
+.text p{
+    color: #959595;
 }
 .sezione3{
     background-color: #abcfe7;
@@ -85,12 +111,19 @@ a:hover{
     float: left;
 }
 .sezione4{
-    background-color: #abcfe7;
     height: 570px;
     width: 21%;
     margin-bottom: 20px;
     float: left;
 }
+.img3{
+    background-image: url(../img/img-3.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 250px;
+    border-radius: 25px;
+}
+
 .divisione3{
     background-color: #8801fe;
     height: 60px;
