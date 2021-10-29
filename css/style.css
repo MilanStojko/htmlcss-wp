@@ -33,6 +33,21 @@ a:hover{
     background-position: center;
     height: 700px;
     border-radius: 25px;
+    position: relative;
+}
+.bannerh2{
+    color: white;
+    font-size: 40px;
+    width: 55%;
+}
+.bannerp{
+    color: white;
+    width: 55%;
+}
+.banner div{
+    position: absolute;
+    bottom: 80px;
+    left: 50px;
 }
 .divisione2{
     height: 500px;
