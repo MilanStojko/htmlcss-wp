@@ -80,7 +80,6 @@ h4{
     margin: 30px 10%;
 }
 .sezione2{
-    height: 570px;
     width: 21%;
     margin-bottom: 20px;
     margin-right: 1%;
@@ -107,7 +106,6 @@ h4{
     color: #959595;
 }
 .sezione3{
-    height: 570px;
     width: 56%;
     margin-bottom: 20px;
     margin-right: 1%;
@@ -121,7 +119,6 @@ h4{
     background-position: center;
 }
 .sezione4{
-    height: 570px;
     width: 21%;
     margin-bottom: 20px;
     float: left;
@@ -134,9 +131,7 @@ h4{
     height: 250px;
     border-radius: 25px;
 }
-
 .footer{
-    height: 60px;
     width: 79%;
     margin: -15px 10% 30px;
     text-align: center;
